@@ -1,10 +1,13 @@
 {
-  "name": "tempodb",
+  "name": "tempodb", "version": "0.6.0",
   "description": "A Node.js client for TempoDB",
-  "version": "0.5.0",
   "author": "Andrew J Cronk <andy@tempo-db.com>",
   "keywords": ["tempodb", "time-series", "database"],
-  "main": "tempodb"
+  "main": "tempodb",
+  "dependencies": {
+    "async": "0.2.9",
+    "moment": "2.4.0",
+    "request": "2.28.0",
+    "underscore": "1.5.2"
+  }
 }
-
-
